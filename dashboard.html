@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Installation Request</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Installation Request Form</h2>
+    <form id="requestForm">
+      <label>Software:</label>
+      <input type="text" value="MATLAB" readonly>
+
+      <label>Version:</label>
+      <input type="text" name="version" required>
+
+      <label>Staff Code:</label>
+      <input type="text" name="staffCode" required>
+
+      <label>Contact No.:</label>
+      <input type="text" name="contact" required>
+
+      <label>PC IP:</label>
+      <input type="text" name="ip" required>
+
+      <label>PC OS:</label><br>
+      <input type="radio" name="os" value="Windows" checked> Windows
+      <input type="radio" name="os" value="Linux"> Linux<br><br>
+
+      <label>Department:</label>
+      <input type="text" name="department" required>
+
+      <label>Team:</label>
+      <input type="text" name="team" required>
+
+      <label>Message (Optional):</label>
+      <textarea name="message"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+
+  <script src="../js/user.js"></script>
+</body>
+</html>
